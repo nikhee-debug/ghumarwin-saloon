@@ -460,7 +460,7 @@ const Booking = () => {
 
   const openWhatsApp = () => {
     const message = `Hello HairMovers, I would like to book an appointment for ${formData.service || 'a service'}.`;
-    window.open(`https://wa.me/919816000000?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/917740837408?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
@@ -590,7 +590,7 @@ const Contact = () => {
                 <Phone className="text-gold-600 w-6 h-6 mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-bold">Contact</h4>
-                  <p className="text-zinc-500">+91 98160 00000</p>
+                  <p className="text-zinc-500">+91 77408 37408</p>
                   <p className="text-zinc-500">info@hairmovers.com</p>
                 </div>
               </div>
@@ -690,7 +690,7 @@ const WhatsAppButton = () => {
     <motion.a 
       initial={{ scale: 0 }}
       animate={{ scale: 1 }}
-      href="https://wa.me/919816000000"
+      href="https://wa.me/917740837408"
       target="_blank"
       className="fixed bottom-8 right-8 z-50 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white shadow-2xl hover:bg-green-600 hover:scale-110 transition-all"
     >
