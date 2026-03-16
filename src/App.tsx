@@ -249,10 +249,13 @@ const Hero = () => {
               Book Appointment
             </a>
             <a 
-              href="#services" 
-              className="border border-white/30 hover:border-gold-500 text-white px-10 py-4 rounded-full font-bold text-center transition-colors backdrop-blur-sm"
+              href="https://wa.me/917740837408" 
+              className="whatsapp-button"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Explore Services
+              <MessageCircle className="w-5 h-5" />
+              Book on WhatsApp
             </a>
           </div>
         </motion.div>
@@ -483,13 +486,15 @@ const Booking = () => {
                 <p className="text-sm text-zinc-500">Get quick replies for your queries.</p>
               </div>
             </div>
-            <button 
-              onClick={openWhatsApp}
-              className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-bold flex items-center gap-2 transition-all shadow-lg shadow-green-200"
+            <a 
+              href="https://wa.me/917740837408"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="whatsapp-button"
             >
               <MessageCircle className="w-5 h-5" />
-              Chat on WhatsApp
-            </button>
+              Book on WhatsApp
+            </a>
           </div>
         </div>
 
